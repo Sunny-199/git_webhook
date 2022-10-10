@@ -1,0 +1,216 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="TYPO" enabled_by_default="false" />
+    <inspection_tool class="PyAbstractClassInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyComparisonWithNoneInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDefaultArgumentInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDeprecationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDictCreationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDictDuplicateKeysInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyGlobalUndefinedInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyListCreationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodOverridingInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyNoneFunctionAssignmentInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="68">
+            <item index="0" class="java.lang.String" itemvalue="pymemcache" />
+            <item index="1" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="2" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="3" class="java.lang.String" itemvalue="defusedxml" />
+            <item index="4" class="java.lang.String" itemvalue="py" />
+            <item index="5" class="java.lang.String" itemvalue="kombu" />
+            <item index="6" class="java.lang.String" itemvalue="pycparser" />
+            <item index="7" class="java.lang.String" itemvalue="redis" />
+            <item index="8" class="java.lang.String" itemvalue="appdirs" />
+            <item index="9" class="java.lang.String" itemvalue="mccabe" />
+            <item index="10" class="java.lang.String" itemvalue="certifi" />
+            <item index="11" class="java.lang.String" itemvalue="oauthlib" />
+            <item index="12" class="java.lang.String" itemvalue="stripe" />
+            <item index="13" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="14" class="java.lang.String" itemvalue="vine" />
+            <item index="15" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="16" class="java.lang.String" itemvalue="asgiref" />
+            <item index="17" class="java.lang.String" itemvalue="cryptography" />
+            <item index="18" class="java.lang.String" itemvalue="click" />
+            <item index="19" class="java.lang.String" itemvalue="python3-openid" />
+            <item index="20" class="java.lang.String" itemvalue="attrs" />
+            <item index="21" class="java.lang.String" itemvalue="huey" />
+            <item index="22" class="java.lang.String" itemvalue="regex" />
+            <item index="23" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="24" class="java.lang.String" itemvalue="django-allauth" />
+            <item index="25" class="java.lang.String" itemvalue="idna" />
+            <item index="26" class="java.lang.String" itemvalue="pathspec" />
+            <item index="27" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="28" class="java.lang.String" itemvalue="pluggy" />
+            <item index="29" class="java.lang.String" itemvalue="cffi" />
+            <item index="30" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="31" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="32" class="java.lang.String" itemvalue="pycodestyle" />
+            <item index="33" class="java.lang.String" itemvalue="requests" />
+            <item index="34" class="java.lang.String" itemvalue="click-didyoumean" />
+            <item index="35" class="java.lang.String" itemvalue="flake8" />
+            <item index="36" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="37" class="java.lang.String" itemvalue="requests-oauthlib" />
+            <item index="38" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="39" class="java.lang.String" itemvalue="urllib3" />
+            <item index="40" class="java.lang.String" itemvalue="billiard" />
+            <item index="41" class="java.lang.String" itemvalue="six" />
+            <item index="42" class="java.lang.String" itemvalue="django-celery-results" />
+            <item index="43" class="java.lang.String" itemvalue="pyflakes" />
+            <item index="44" class="java.lang.String" itemvalue="pytest" />
+            <item index="45" class="java.lang.String" itemvalue="amqp" />
+            <item index="46" class="java.lang.String" itemvalue="black" />
+            <item index="47" class="java.lang.String" itemvalue="packaging" />
+            <item index="48" class="java.lang.String" itemvalue="toml" />
+            <item index="49" class="java.lang.String" itemvalue="pandas" />
+            <item index="50" class="java.lang.String" itemvalue="Django" />
+            <item index="51" class="java.lang.String" itemvalue="django-redis" />
+            <item index="52" class="java.lang.String" itemvalue="click-repl" />
+            <item index="53" class="java.lang.String" itemvalue="pytz" />
+            <item index="54" class="java.lang.String" itemvalue="click-plugins" />
+            <item index="55" class="java.lang.String" itemvalue="channels-redis" />
+            <item index="56" class="java.lang.String" itemvalue="hiredis" />
+            <item index="57" class="java.lang.String" itemvalue="aioredis" />
+            <item index="58" class="java.lang.String" itemvalue="backports.zoneinfo" />
+            <item index="59" class="java.lang.String" itemvalue="environ" />
+            <item index="60" class="java.lang.String" itemvalue="install" />
+            <item index="61" class="java.lang.String" itemvalue="decouple" />
+            <item index="62" class="java.lang.String" itemvalue="netifaces" />
+            <item index="63" class="java.lang.String" itemvalue="pycups" />
+            <item index="64" class="java.lang.String" itemvalue="PyGObject" />
+            <item index="65" class="java.lang.String" itemvalue="pyinotify" />
+            <item index="66" class="java.lang.String" itemvalue="uvloop" />
+            <item index="67" class="java.lang.String" itemvalue="dlib" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E303" />
+          <option value="W292" />
+          <option value="E301" />
+          <option value="E225" />
+          <option value="E127" />
+          <option value="E501" />
+          <option value="E211" />
+          <option value="W605" />
+          <option value="E722" />
+          <option value="E305" />
+          <option value="E111" />
+          <option value="E125" />
+          <option value="E122" />
+          <option value="E117" />
+          <option value="E712" />
+          <option value="E101" />
+          <option value="W191" />
+          <option value="E703" />
+          <option value="E711" />
+          <option value="E402" />
+          <option value="E265" />
+          <option value="E116" />
+          <option value="E114" />
+          <option value="E128" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N812" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="format" />
+          <option value="id" />
+          <option value="dir" />
+          <option value="bin" />
+          <option value="type" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PySimplifyBooleanCheckInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyStatementEffectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyStringFormatInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTrailingSemicolonInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTupleItemAssignmentInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeHintsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypedDictInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="DRF_API.DRF_API.API.models.Student.objects" />
+          <option value="DRF_API.DRF_API.API.models.Subject.objects" />
+          <option value="DRF_API.DRF_API.API.models.Topic.objects" />
+          <option value="DRF_API.DRF_API.API.models.AnswerSheet.objects" />
+          <option value="DRF_API.DRF_API.API.models.ImageAnswer.objects" />
+          <option value="DRF_API.DRF_API.API.models.Teacher.objects" />
+          <option value="DRF_API.DRF_API.API.models.UserAnswerSheet.objects" />
+          <option value="DRF_API.DRF_API.API.models.UserMark.objects" />
+          <option value="DRF_API.DRF_API.API.models.FavouriteTeacher.objects" />
+          <option value="DRF_API.DRF_API.API.models.Rating.objects" />
+          <option value="DRF_API.DRF_API.API.models.SingleQuestion.objects" />
+          <option value="requests" />
+          <option value="voluptuous" />
+          <option value="ClickSend.notify.homeassistant" />
+          <option value="django_heroku" />
+          <option value="api.models.Company.objects" />
+          <option value="api.models.Menu.objects" />
+          <option value="api.models.MenuCategory.objects" />
+          <option value="api.models.Items.objects" />
+          <option value="api.models.AddonCategory.objects" />
+          <option value="api.models.AddonItem.objects" />
+          <option value="api.models.Standard.objects" />
+          <option value="api.models.Standard.DoesNotExist" />
+          <option value="api.models.Room.objects" />
+          <option value="api.models.Guests.objects" />
+          <option value="api.models.Hotel.objects" />
+          <option value="list.items" />
+          <option value="api.models.Role.objects" />
+          <option value="accounts.models.Role.objects" />
+          <option value="main_app.models.Hotel.objects" />
+          <option value="environ" />
+          <option value="main_app.models.Items.objects" />
+          <option value="main_app.models.Menu.objects" />
+          <option value="main_app.models.Company.objects" />
+          <option value="main_app.models.MenuCategory.objects" />
+          <option value="main_app.models.AddonCategory.objects" />
+          <option value="main_app.models.AddonItem.objects" />
+          <option value="main_app.models.Standard.objects" />
+          <option value="main_app.models.Standard.DoesNotExist" />
+          <option value="main_app.models.Room.objects" />
+          <option value="main_app.models.Guests.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnusedLocalInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="requirements.InstalledPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
