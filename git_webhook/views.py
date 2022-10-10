@@ -10,11 +10,11 @@ from django.utils.encoding import force_bytes
 import requests
 from ipaddress import ip_address, ip_network
 
-@require_POST
+# @require_POST
 @csrf_exempt
 def hello(request):
     # Verify if request came from GitHub
-    forwarded_for = u'{}'.format(request.META.get('HTTP_X_FORWARDED_FOR'))
+    forwarded_for = u'https://git-webhook2.herokuapp.com/webhook/'.format(request.META.get('HTTP_X_FORWARDED_FOR'))
     client_ip_address = ip_address(forwarded_for)
     whitelist = requests.get('https://api.github.com/meta').json()['hooks']
 
