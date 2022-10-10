@@ -10,7 +10,7 @@ from django.utils.encoding import force_bytes
 import requests
 from ipaddress import ip_address, ip_network
 
-# @require_POST
+@require_POST
 @csrf_exempt
 def hello(request):
     # Verify if request came from GitHub
