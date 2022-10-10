@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'git_webhook',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -121,7 +122,11 @@ STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
-
+REST_FRAMEWORK = {
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',
+    ]
+}
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 django_heroku.settings(locals())
 GITHUB_WEBHOOK_KEY = 'mvfNmAVYxLlwoNjEZ28p2Il01cEQIzDjbrJu5LXnQEJj32Sfvs'

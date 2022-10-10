@@ -1,6 +1,7 @@
-from . import views
+
+from git_webhook.views import GitWebhook
 from django.urls import path
 
 urlpatterns = [
-    path('webhook/', views.hello, name='webhook'),
+    path('webhook/', GitWebhook.as_view(), name='webhook'),
 ]
